@@ -18,8 +18,10 @@ Once installed, the tool can be run by specifying two detail:
 1. the name of the files used in the Dream3D pipeline.  In this example case in the repo, this would be *testcase*
 2. There is the option to increase the number of nodes defining boundary voxels/elements.  This can be selected by choosing *True* or *False*
 
-`from Lengthmorph.fileconstruct import grainboundary
-grainboundary(file='testcase',nodinc=True)`
+```python
+from Lengthmorph.fileconstruct import grainboundary
+grainboundary(file='testcase',nodinc=True)
+```
 
 # Installation
 Download the GitHub repo via the following link:
