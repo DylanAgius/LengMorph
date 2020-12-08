@@ -9,4 +9,4 @@ Download the GitHub repo via the following link:
 
 Once unpacked, navigate to the LengMorph folder and use the following command:
 
-'pip install .'
+`pip install .`
