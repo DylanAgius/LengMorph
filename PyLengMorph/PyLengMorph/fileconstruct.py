@@ -9,8 +9,8 @@ Created on Mon Dec  7 11:59:04 2020
 import numpy as np
 import pandas as pd 
 
-from scrape import data_scrape
-from node_increase import increase_nodes
+from PyLengMorph.scrape import data_scrape
+from PyLengMorph.node_increase import increase_nodes
     
 
 """find grain boundary nodes corresponding to each grain"""    
@@ -218,5 +218,5 @@ def grainboundary(**kwargs):
 
     incfile.close()
     
-grainboundary(file='testcase',nodeinc=True)
+grainboundary(file='testcase', nodeinc=True)
     

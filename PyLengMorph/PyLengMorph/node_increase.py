@@ -6,7 +6,7 @@ Created on Mon Dec  7 12:02:24 2020
 """
 import numpy as np
 
-from scrape import data_scrape
+from PyLengMorph.scrape import data_scrape
 
 
 """This function will increase the number of nodes defining the voxel
