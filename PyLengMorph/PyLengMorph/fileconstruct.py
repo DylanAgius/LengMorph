@@ -218,5 +218,5 @@ def grainboundary(**kwargs):
 
     incfile.close()
     
-grainboundary(file='testcase',nodeinc=False)
+grainboundary(file='testcase',nodeinc=True)
     
