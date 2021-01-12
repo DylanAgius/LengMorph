@@ -126,7 +126,7 @@ def grainboundary(**kwargs):
     
    
     #Then create a dataframe for export
-    #'9999999's are added to rows missing values to ensure each row is the same dimension
+    #'-1's are added to rows missing values to ensure each row is the same dimension
     #for reading into crystal plasicity UMAT
     
     xnodedataframe= pd.DataFrame.from_dict(xnodelist, orient='index').fillna(-1)
@@ -256,5 +256,4 @@ def grainboundary(**kwargs):
     
         incfile.close()
     
-grainboundary(file='testcase', nodeinc=False, abq=True)
     
