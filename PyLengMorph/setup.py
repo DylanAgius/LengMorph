@@ -16,11 +16,13 @@ setuptools.setup(
     description="Create multidimensional arrays to implement length scale modification",
     long_description_content_type="text/markdown",
     url="https://github.com/DylanAgius/LengMorph",
+    scripts=['fileconstruct.py','node_increase.py',
+             'scrape.py']
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.7',
+    
 )
