@@ -20,7 +20,7 @@ Once installed, the tool can be run by specifying two detail:
 
 ```python
 from Lengthmorph.fileconstruct import grainboundary
-grainboundary(file='testcase',nodinc=True)
+grainboundary(file='testcase', nodeinc=False, abq=True)
 ```
 
 # Installation
