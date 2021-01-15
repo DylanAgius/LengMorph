@@ -19,8 +19,8 @@ Once installed, the tool can be run by specifying two detail:
 2. There is the option to increase the number of nodes defining boundary voxels/elements.  This can be selected by choosing *True* or *False*
 
 ```python
-from PyLengMorph.fileconstruct import grainboundary
-grainboundary(loc='\\path\\to\\data\\folder', file='testcase', nodeinc=False, abq=True)
+import PyLengMorph as plm
+plm.grainboundary(loc='\\path\\to\\data\\folder', file='testcase', nodeinc=False, abq=True)
 ```
 
 # Installation
