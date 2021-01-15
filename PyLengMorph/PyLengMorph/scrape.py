@@ -9,8 +9,8 @@ import numpy as np
 import pandas as pd 
 import os
 
-def data_scrape(cname):
-    loc=os.path.join(os.path.dirname(__file__),'data')
+def data_scrape(loc,cname):
+    loc=os.path.join(loc,'data')
     
         
     nodes=np.array(file_read(os.path.join(loc,cname + '_nodes.inp'),',')).astype(np.float64)

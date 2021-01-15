@@ -18,8 +18,9 @@ from PyLengMorph.node_increase import increase_nodes
 def grainboundary(**kwargs):
     
     cname=kwargs['file']
+    loc=kwargs['loc']
     
-    nodes, elemes, gbels, centroid, orien = data_scrape(cname)
+    nodes, elemes, gbels, centroid, orien = data_scrape(loc,cname)
     
    
     
@@ -255,6 +256,5 @@ def grainboundary(**kwargs):
                 incfile.writelines("/)" )
     
         incfile.close()
-    
-grainboundary(file='testcase', nodeinc=False, abq=True)
+
     
