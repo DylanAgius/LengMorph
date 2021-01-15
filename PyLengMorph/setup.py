@@ -11,18 +11,15 @@ import setuptools
 setuptools.setup(
     name="lengmorph-DylanAgius", 
     version="0.0.1",
-    author="Dylan Agius",
+    author="Dylan Agius, Solid Mechanics Research Group, Univeristy of Bristol",
     author_email="dylan.j.agius@gmail.com",
-    description="Create multidimensional arrays to implement length scale modification",
+    description="Create binary files containing arrays required in the implementation of a length scale modification for crystal plasticity simulations",
     long_description_content_type="text/markdown",
     url="https://github.com/DylanAgius/LengMorph",
-    scripts=['fileconstruct.py','node_increase.py',
-             'scrape.py']
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    
 )
