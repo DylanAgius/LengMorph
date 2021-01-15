@@ -20,7 +20,7 @@ Once installed, the tool can be run by specifying two detail:
 
 ```python
 from PyLengMorph.fileconstruct import grainboundary
-grainboundary(file='testcase', nodeinc=False, abq=True)
+grainboundary(loc='\\path\\to\\data\\folder', file='testcase', nodeinc=False, abq=True)
 ```
 
 # Installation
@@ -28,6 +28,6 @@ Download the GitHub repo via the following link:
 
 https://github.com/DylanAgius/LengMorph.git
 
-Once unpacked, navigate to the LengMorph folder and use the following command:
+Once unpacked, navigate to the PyLengMorph folder and use the following command:
 
 `pip install .`
