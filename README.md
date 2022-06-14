@@ -23,7 +23,7 @@ An additional two include files are created if required:
 * orien.inc
 * param_array.inc
 
-Details on their contents can be found in the following publication **ref**.
+Details on their contents can be found in this publication **ref**.
 
 ## How to
 Once installed, the tool can be run by specifying four details:
@@ -45,3 +45,6 @@ https://github.com/DylanAgius/LengMorph.git
 Once unpacked, navigate to the PyLengMorph folder and use the following command:
 
 `pip install .`
+
+# Citing
+If you find this tool useful, please cite the publicaton (found [here](https://www.sciencedirect.com/science/article/pii/S0749641922000341#fig0006) which demonstrates how these tool can be applied
