@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/306413915.svg)](https://zenodo.org/badge/latestdoi/306413915)
 # LengMorph
 A tool to include length scale effects for crystal plasticity using slip distance.
 
