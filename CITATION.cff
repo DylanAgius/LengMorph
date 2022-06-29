@@ -4,6 +4,6 @@ authors:
 - family-names: "Agius"
   given-names: "Dylan"
 title: "LengMorph: a tool to add a length scale dependence to crystal plasticity simulations"
-doi: 10.5281/zenodo.1234
+doi: 10.5281/zenodo.6778289
 date-released: 2022-02-03
 url: "https://github.com/DylanAgius/LengMorph.git"
