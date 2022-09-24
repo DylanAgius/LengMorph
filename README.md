@@ -24,7 +24,7 @@ An additional two include files are created if required:
 * orien.inc
 * param_array.inc
 
-Details on their contents can be found in this publication **ref**.
+Details on their contents can be found in this [publication](https://www.sciencedirect.com/science/article/pii/S2215016122001431).
 
 ## How to
 Once installed, the tool can be run by specifying four details:
