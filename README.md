@@ -48,4 +48,4 @@ Once unpacked, navigate to the PyLengMorph folder and use the following command:
 `pip install .`
 
 # Citing
-If you find this tool useful, please cite the publications (found [here](https://www.sciencedirect.com/science/article/pii/S0749641922000341#fig0006) and [here](https://www.sciencedirect.com/science/article/pii/S2215016122001431) which detail how this tool can be applied).  Also, if possible, please cite this  repository.
+If you find this tool useful, please cite the publications (found [here](https://www.sciencedirect.com/science/article/pii/S0749641922000341#fig0006) and [here](https://www.sciencedirect.com/science/article/pii/S2215016122001431)) which detail how this tool can be applied.  Also, if possible, please cite this  repository.
