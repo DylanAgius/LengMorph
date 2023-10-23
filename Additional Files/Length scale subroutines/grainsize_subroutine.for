@@ -622,16 +622,16 @@
 		euler2=orient(1,2)*PI/180.D0
 		euler3=orient(1,3)*PI/180.D0
 
-		zrot=reshape((/cosd(euler1),-sind(euler1),0.d0, 
-     1   		sind(euler1),cosd(euler1),0.d0, 
+		zrot=reshape((/cosd(euler1),sind(euler1),0.d0, 
+     1   		-sind(euler1),cosd(euler1),0.d0, 
      2      		 0.d0,0.d0,1.d0/),(/3,3/))
 					
 		xrot=reshape((/1.d0,0.d0,0.d0, 
-     1   		0.d0,cosd(euler2),-sind(euler2), 
-     2  		 0.d0, sind(euler2),cosd(euler2)/),(/3,3/))
+     1   		0.d0,cosd(euler2),sind(euler2), 
+     2  		 0.d0, -sind(euler2),cosd(euler2)/),(/3,3/))
 
-		zrot2=reshape((/cosd(euler3),-sind(euler3),0.d0, 
-     1    		sind(euler3),cosd(euler3),0.d0, 
+		zrot2=reshape((/cosd(euler3),sind(euler3),0.d0, 
+     1    		-sind(euler3),cosd(euler3),0.d0, 
      2          	 0.d0,0.d0,1.d0/),(/3,3/))
 
 		!total rotation matrix
