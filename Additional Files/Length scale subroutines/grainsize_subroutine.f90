@@ -544,16 +544,16 @@ subroutine eulercosmatrix(orient,totalrot)
     euler3=orient(1,3)*PI/180.D0
  
 
-    zrot=reshape((/cos(euler1),-sin(euler1),0.d0, &
-            sin(euler1),cos(euler1),0.d0, &
+    zrot=reshape((/cos(euler1),sin(euler1),0.d0, &
+            -sin(euler1),cos(euler1),0.d0, &
                 0.d0,0.d0,1.d0/),(/3,3/))
                 
     xrot=reshape((/1.d0,0.d0,0.d0, &
-            0.d0,cos(euler2),-sin(euler2), &
-            0.d0, sin(euler2),cos(euler2)/),(/3,3/))
+            0.d0,cos(euler2),sin(euler2), &
+            0.d0, -sin(euler2),cos(euler2)/),(/3,3/))
 
-    zrot2=reshape((/cos(euler3),-sin(euler3),0.d0, &
-            sin(euler3),cos(euler3),0.d0, &
+    zrot2=reshape((/cos(euler3),sin(euler3),0.d0, &
+            -sin(euler3),cos(euler3),0.d0, &
                     0.d0,0.d0,1.d0/),(/3,3/))
 
     !total rotation matrix
